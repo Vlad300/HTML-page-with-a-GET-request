@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Distance between cities</title>
+</head>
+<body>
+<form action="https://maps.googleapis.com/maps/api/distancematrix/json" method="get">
+Origin: <input type="text" name="origins"><br><br>
+Destionation: <input type="text" name="destinations"><br><br>
+Units:
+<select name="units">
+	<option value="metric">kilometers</option>
+	<option value="imperial">miles</option>
+</select><br><br>
+<input type="reset" value="Clear"> <input type="submit" value="Submit">
+</form>
+</body>
+</html>
